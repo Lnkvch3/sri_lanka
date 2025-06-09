@@ -1,0 +1,23 @@
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import Header from './components/Header';
+import Map from './pages/Map';
+import Places from './pages/Places';
+import About from './pages/About';
+import Contact from './pages/Contact';
+
+function App() {
+  return (
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Navigate to="/mapa" />} />
+        <Route path="/mapa" element={<Map />} />
+        <Route path="/miejsca" element={<Places />} />
+        <Route path="/o-kraju" element={<About />} />
+        <Route path="/kontakt" element={<Contact />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;

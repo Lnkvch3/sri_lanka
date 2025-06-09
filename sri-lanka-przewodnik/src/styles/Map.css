@@ -1,0 +1,48 @@
+.map-container {
+  position: relative;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.map-image {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.hotspot {
+  position: absolute;
+  background-color: #cc3366;
+  color: white;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  border-radius: 50%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.hotspot:hover {
+  transform: scale(1.2);
+}
+
+.sigiriya {
+  top: 42%;
+  left: 43%;
+}
+
+.ella {
+  top: 75%;
+  left: 55%;
+}
+
+.mirissa {
+  top: 88%;
+  left: 48%;
+}
+
