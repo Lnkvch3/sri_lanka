@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# Przewodnik po Sri Lance
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Profesjonalna, interaktywna aplikacja w React + TypeScript, będąca mini przewodnikiem po Sri Lance. Zawiera mapę z oznaczonymi miejscami, rozbudowaną sekcję informacyjną o kraju, stronę z możliwością dodawania własnych miejsc oraz formularz kontaktowy z walidacją. Całość zaprojektowana w estetycznych, pastelowych kolorach i w pełni responsywna.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Funkcje aplikacji
 
-### `npm start`
+- Menu z nawigacją i kilkoma podstronami  
+- Strona główna jako atrakcyjne wprowadzenie do aplikacji  
+- Interaktywna mapa z oznaczonymi najważniejszymi miejscami  
+- Sekcja „O kraju” z rozbudowanymi informacjami: historia, kultura, kuchnia, przyroda  
+- Strona „Miejsca” z możliwością dodawania nowych punktów z nazwą, opisem i zdjęciem  
+- Formularz kontaktowy z walidacją pól i komunikatami o błędach  
+- Pełne, spójne stylowanie w pastelowych kolorach i responsywny design
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologie
 
-### `npm test`
+- React 19 + TypeScript – struktura i logika aplikacji
+- React Router – obsługa wielostronicowej nawigacji
+- Hooki React – m.in. useState, useEffect do zarządzania stanem
+- Leaflet + react-leaflet – do wyświetlania mapy Sri Lanki
+- CSS – flexbox, grid i media queries dla responsywności
+- Lokalny JSON – dane o miejscach do odwiedzenia
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Jak uruchomić projekt lokalnie
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Sklonuj repozytorium:
+```bash
+git clone https://github.com/Lnkvch3/sri_lanka.git
+cd sri_lanka
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Zainstaluj zależności:
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Uruchom aplikację w trybie developerskim:
+```bash
+npm start
+```
 
-### `npm run eject`
+4. Aplikacja będzie dostępna pod adresem: [http://localhost:3000](http://localhost:3000)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
+## Instrukcja użytkowania
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Wejdź na stronę główną, aby zapoznać się z przewodnikiem.
+- Skorzystaj z menu, aby przejść do mapy, miejsc, sekcji o kraju lub formularza kontaktowego.
+- Na stronie „Miejsca” możesz dodawać własne punkty z nazwą, opisem i zdjęciem.
+- W zakładce „Kontakt” możesz wysłać wiadomość za pomocą formularza z walidacją.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Dlaczego wybrałam te technologie
 
-## Learn More
+- React i TypeScript pozwalają na stworzenie nowoczesnej, bezpiecznej aplikacji SPA.
+- React Router umożliwia zarządzanie podstronami bez przeładowywania strony.
+- Leaflet umożliwia eleganckie osadzenie interaktywnej mapy.
+- CSS z flexboxem i gridem pozwala na stworzenie przejrzystego i responsywnego układu.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licencja
+
+Projekt stworzony w celach edukacyjnych na potrzeby zaliczenia – możesz go rozwijać i dostosowywać na własne potrzeby.
