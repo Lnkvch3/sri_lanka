@@ -1,10 +1,9 @@
 import './DestinationCard.css';
 
 type Destination = {
-  id: number;
   name: string;
-  description: string;
   image: string;
+  description: string;
 };
 
 const DestinationCard = ({ name, description, image }: Destination) => {

@@ -4,7 +4,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Header from './components/Header';
 import Home from './pages/Home';
-import MapPage from './pages/Map';
+import Map from './pages/Map';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Header /> { }
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/mapa" element={<MapPage />} />
+        <Route path="/mapa" element={<Map />} />
         <Route path="/miejsca" element={<Places />} />
         <Route path="/o-kraju" element={<About />} />
         <Route path="/kontakt" element={<Contact />} />

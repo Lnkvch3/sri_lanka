@@ -5,7 +5,10 @@ const Header = () => {
   return (
     <header className="app-header">
       <div className="container">
-        <div className="logo">🌸 Sri Lanka Guide</div>
+        <div className="logo">
+          <span className="logo-icon">🌸</span>
+          <span className="logo-text">Sri Lanka Guide</span>
+        </div>
         <nav className="nav-menu">
           <NavLink to="/" className="nav-link">Start</NavLink>
           <NavLink to="/mapa" className="nav-link">Mapa</NavLink>
