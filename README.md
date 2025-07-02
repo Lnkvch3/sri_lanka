@@ -6,12 +6,12 @@ Profesjonalna, interaktywna aplikacja w React + TypeScript, będąca mini przewo
 
 ## Funkcje aplikacji
 
-- Menu z nawigacją i kilkoma podstronami  
-- Strona główna jako atrakcyjne wprowadzenie do aplikacji  
-- Interaktywna mapa z oznaczonymi najważniejszymi miejscami  
-- Sekcja „O kraju” z rozbudowanymi informacjami: historia, kultura, kuchnia, przyroda  
-- Strona „Miejsca” z możliwością dodawania nowych punktów z nazwą, opisem i zdjęciem  
-- Formularz kontaktowy z walidacją pól i komunikatami o błędach  
+- Menu z nawigacją i kilkoma podstronami
+- Strona główna jako atrakcyjne wprowadzenie do aplikacji
+- Interaktywna mapa z oznaczonymi najważniejszymi miejscami
+- Sekcja „O kraju” z rozbudowanymi informacjami: historia, kultura, kuchnia, przyroda
+- Strona „Miejsca” z możliwością dodawania nowych punktów z nazwą, opisem i zdjęciem
+- Formularz kontaktowy z walidacją pól i komunikatami o błędach
 - Pełne, spójne stylowanie w pastelowych kolorach i responsywny design
 
 ---
@@ -30,17 +30,20 @@ Profesjonalna, interaktywna aplikacja w React + TypeScript, będąca mini przewo
 ## Jak uruchomić projekt lokalnie
 
 1. Sklonuj repozytorium:
+
 ```bash
 git clone https://github.com/Lnkvch3/sri_lanka.git
 cd sri_lanka
 ```
 
 2. Zainstaluj zależności:
+
 ```bash
 npm install
 ```
 
 3. Uruchom aplikację w trybie developerskim:
+
 ```bash
 npm start
 ```
@@ -48,6 +51,7 @@ npm start
 4. Aplikacja będzie dostępna pod adresem: [http://localhost:3000](http://localhost:3000)
 
 ---
+
 ## Instrukcja użytkowania
 
 - Wejdź na stronę główną, aby zapoznać się z przewodnikiem.
@@ -66,6 +70,6 @@ npm start
 
 ---
 
-## Licencja
+## Stronę można zobaczyc przez link
 
-Projekt stworzony w celach edukacyjnych na potrzeby zaliczenia – możesz go rozwijać i dostosowywać na własne potrzeby.
+https://endearing-crumble-66a25a.netlify.app/
