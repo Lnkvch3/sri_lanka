@@ -69,3 +69,8 @@ npm start
 ## Licencja
 
 Projekt stworzony w celach edukacyjnych na potrzeby zaliczenia – możesz go rozwijać i dostosowywać na własne potrzeby.
+
+
+
+## Stronę można zobaczyc przez link 
+https://endearing-crumble-66a25a.netlify.app/
